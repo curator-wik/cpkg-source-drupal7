@@ -1,0 +1,110 @@
+language: php
+php:
+    - '7.1'
+
+env:
+    matrix:
+        - DELTA='7.68 https://ftp.drupal.org/files/projects/drupal-7.68.tar.gz'
+        - DELTA='7.67 https://ftp.drupal.org/files/projects/drupal-7.67.tar.gz'
+        - DELTA='7.66 https://ftp.drupal.org/files/projects/drupal-7.66.tar.gz'
+        - DELTA='7.65 https://ftp.drupal.org/files/projects/drupal-7.65.tar.gz'
+        - DELTA='7.64 https://ftp.drupal.org/files/projects/drupal-7.64.tar.gz'
+        - DELTA='7.63 https://ftp.drupal.org/files/projects/drupal-7.63.tar.gz'
+        - DELTA='7.62 https://ftp.drupal.org/files/projects/drupal-7.62.tar.gz'
+        - DELTA='7.61 https://ftp.drupal.org/files/projects/drupal-7.61.tar.gz'
+        - DELTA='7.60 https://ftp.drupal.org/files/projects/drupal-7.60.tar.gz'
+        - DELTA='7.59 https://ftp.drupal.org/files/projects/drupal-7.59.tar.gz'
+        - DELTA='7.58 https://ftp.drupal.org/files/projects/drupal-7.58.tar.gz'
+        - DELTA='7.57 https://ftp.drupal.org/files/projects/drupal-7.57.tar.gz'
+        - DELTA='7.56 https://ftp.drupal.org/files/projects/drupal-7.56.tar.gz'
+        - DELTA='7.55 https://ftp.drupal.org/files/projects/drupal-7.55.tar.gz'
+        - DELTA='7.54 https://ftp.drupal.org/files/projects/drupal-7.54.tar.gz'
+        - DELTA='7.53 https://ftp.drupal.org/files/projects/drupal-7.53.tar.gz'
+        - DELTA='7.52 https://ftp.drupal.org/files/projects/drupal-7.52.tar.gz'
+        - DELTA='7.51 https://ftp.drupal.org/files/projects/drupal-7.51.tar.gz'
+        - DELTA='7.50 https://ftp.drupal.org/files/projects/drupal-7.50.tar.gz'
+        - DELTA='7.44 https://ftp.drupal.org/files/projects/drupal-7.44.tar.gz'
+        - DELTA='7.43 https://ftp.drupal.org/files/projects/drupal-7.43.tar.gz'
+        - DELTA='7.42 https://ftp.drupal.org/files/projects/drupal-7.42.tar.gz'
+        - DELTA='7.41 https://ftp.drupal.org/files/projects/drupal-7.41.tar.gz'
+        - DELTA='7.40 https://ftp.drupal.org/files/projects/drupal-7.40.tar.gz'
+        - DELTA='7.39 https://ftp.drupal.org/files/projects/drupal-7.39.tar.gz'
+        - DELTA='7.38 https://ftp.drupal.org/files/projects/drupal-7.38.tar.gz'
+        - DELTA='7.37 https://ftp.drupal.org/files/projects/drupal-7.37.tar.gz'
+        - DELTA='7.36 https://ftp.drupal.org/files/projects/drupal-7.36.tar.gz'
+        - DELTA='7.35 https://ftp.drupal.org/files/projects/drupal-7.35.tar.gz'
+        - DELTA='7.34 https://ftp.drupal.org/files/projects/drupal-7.34.tar.gz'
+        - DELTA='7.33 https://ftp.drupal.org/files/projects/drupal-7.33.tar.gz'
+        - DELTA='7.32 https://ftp.drupal.org/files/projects/drupal-7.32.tar.gz'
+        - DELTA='7.31 https://ftp.drupal.org/files/projects/drupal-7.31.tar.gz'
+        - DELTA='7.30 https://ftp.drupal.org/files/projects/drupal-7.30.tar.gz'
+        - DELTA='7.29 https://ftp.drupal.org/files/projects/drupal-7.29.tar.gz'
+        - DELTA='7.28 https://ftp.drupal.org/files/projects/drupal-7.28.tar.gz'
+        - DELTA='7.27 https://ftp.drupal.org/files/projects/drupal-7.27.tar.gz'
+        - DELTA='7.26 https://ftp.drupal.org/files/projects/drupal-7.26.tar.gz'
+        - DELTA='7.25 https://ftp.drupal.org/files/projects/drupal-7.25.tar.gz'
+        - DELTA='7.24 https://ftp.drupal.org/files/projects/drupal-7.24.tar.gz'
+        - DELTA='7.23 https://ftp.drupal.org/files/projects/drupal-7.23.tar.gz'
+        - DELTA='7.22 https://ftp.drupal.org/files/projects/drupal-7.22.tar.gz'
+        - DELTA='7.21 https://ftp.drupal.org/files/projects/drupal-7.21.tar.gz'
+        - DELTA='7.20 https://ftp.drupal.org/files/projects/drupal-7.20.tar.gz'
+        - DELTA='7.19 https://ftp.drupal.org/files/projects/drupal-7.19.tar.gz'
+        - DELTA='7.18 https://ftp.drupal.org/files/projects/drupal-7.18.tar.gz'
+        - DELTA='7.17 https://ftp.drupal.org/files/projects/drupal-7.17.tar.gz'
+        - DELTA='7.16 https://ftp.drupal.org/files/projects/drupal-7.16.tar.gz'
+        - DELTA='7.15 https://ftp.drupal.org/files/projects/drupal-7.15.tar.gz'
+        - DELTA='7.14 https://ftp.drupal.org/files/projects/drupal-7.14.tar.gz'
+        - DELTA='7.13 https://ftp.drupal.org/files/projects/drupal-7.13.tar.gz'
+        - DELTA='7.12 https://ftp.drupal.org/files/projects/drupal-7.12.tar.gz'
+        - DELTA='7.11 https://ftp.drupal.org/files/projects/drupal-7.11.tar.gz'
+        - DELTA='7.10 https://ftp.drupal.org/files/projects/drupal-7.10.tar.gz'
+        - DELTA='7.9 https://ftp.drupal.org/files/projects/drupal-7.9.tar.gz'
+        - DELTA='7.8 https://ftp.drupal.org/files/projects/drupal-7.8.tar.gz'
+        - DELTA='7.7 https://ftp.drupal.org/files/projects/drupal-7.7.tar.gz'
+        - DELTA='7.6 https://ftp.drupal.org/files/projects/drupal-7.6.tar.gz'
+        - DELTA='7.5 https://ftp.drupal.org/files/projects/drupal-7.5.tar.gz'
+        - DELTA='7.4 https://ftp.drupal.org/files/projects/drupal-7.4.tar.gz'
+        - DELTA='7.3 https://ftp.drupal.org/files/projects/drupal-7.3.tar.gz'
+        - DELTA='7.2 https://ftp.drupal.org/files/projects/drupal-7.2.tar.gz'
+        - DELTA='7.1 https://ftp.drupal.org/files/projects/drupal-7.1.tar.gz'
+        - DELTA='7.0 https://ftp.drupal.org/files/projects/drupal-7.0.tar.gz'
+    global:
+        secure: mVDpxuHkMTLW4v64OORQURI0MCg/za0Xl7HVCiHcZiHh65au6UHvqf0mMdo3gxkZSH7W3r80UluaR6hpvsVA+8j+Y3XmLxCUlymzOr5XyDZ7TAREPK/2Z4xyFZq7AiIsKc5fC/YErk6ML/3DUnz1OvRyFYfRzSgFVqXKgpsrmPfQTWyQ8pTiaHZ/DM/kNM9gTjnTGvQplNhI6TavmU+P2yuAe22+34tORfLN9Rm92YWObLNPb6ZWFpag00ZtB0vcjM9QrFW1UJ8HmxKc0+WZ/HkBK9cNaKaCNKAOausa6Py3ihuxcSiFEUGpUV6lo4750+jce+waNvW9CVBdBjk/sUFX7x41Ymmp9anm/ox54ZkHkEHrc0ZibthMrP0LhyTSsi4tXGo0gOWg1qek0zmlF0X8Xdijp8hGv1p8GMTL+v+ZBxB/4/5awA8o4WHauCnG95ntT9MISKK/MXqoAECoPmggzYTxXDXv1NGZvCWUkxgHJLJyA5SNLp2FkmNM+TiZaXLiQuchDj36HZkg06l/Mq9S4aP9rCUXXJZ9MGTET0lBoNz7AVWfOWH3YKQ+MORXJzfnT2gbtcljitk+NJdDiojLM2ScUKrjD04+aV+JMpOtUmA1T3r6YAvKF4pf/npBEJft2bQGx/hHDOhXEcKfNzdvimGGYDUJVPKmcVaMdxk=
+
+before_install:
+    - export CURRENT_VERSION=7.69
+    - export CURRENT_VERSION_LINK='https://ftp.drupal.org/files/projects/drupal-7.69.tar.gz'
+    - read DELTA_VERSION DELTA_VERSION_LINK <<< "$DELTA"
+    - export DELTA_VERSION
+    - export DELTA_VERSION_LINK
+    - openssl aes-256-cbc -K $encrypted_32cfd0901b02_key -iv $encrypted_32cfd0901b02_iv -in secret_identity_file.enc -out secret_identity_file -d
+    - chmod 0400 secret_identity_file
+
+install:
+    - echo "Downloading Curator..."
+    - curl https://codeload.github.com/curator-wik/curator/zip/master > curator.zip
+    - unzip curator.zip
+    - mv curator-master curator
+    - pushd curator
+    - echo "Installing Curator dependencies..."
+    - composer install
+    - popd
+    - echo "Downloading latest version of D7, ${CURRENT_VERSION}, for comparison..."
+    - mkdir current_version
+    - pushd current_version
+    - curl $CURRENT_VERSION_LINK | tar --strip-components=1 -zx
+    - popd
+    - echo "Downloading Drupal ${DELTA_VERSION}"
+    - mkdir ${DELTA_VERSION}
+    - pushd ${DELTA_VERSION}
+    - curl $DELTA_VERSION_LINK | tar --strip-components=1 -zx
+    - popd
+    - echo "Adding cpkg test class..."
+    - php -r 'echo base64_decode("PD9waHAKCgpuYW1lc3BhY2UgQ3VyYXRvclxUZXN0c1xJbnRlZ3JhdGlvblxDcGtnOwoKdXNlIEN1cmF0b3JcSW50ZWdyYXRpb25Db25maWc7CnVzZSBDdXJhdG9yXFRlc3RzXEZ1bmN0aW9uYWxcVXRpbFxTZXNzaW9uOwp1c2UgQ3VyYXRvclxUZXN0c1xJbnRlZ3JhdGlvblxJbnRlZ3JhdGlvbldlYlRlc3RDYXNlOwp1c2UgQ3VyYXRvclxUZXN0c1xTaGFyZWRcVHJhaXRzXENwa2dcV2ViVGVzdENhc2VDcGtnQXBwbGllclRyYWl0Owp1c2UgU2lsZXhcQXBwbGljYXRpb247CnVzZSBTeW1mb255XENvbXBvbmVudFxCcm93c2VyS2l0XENvb2tpZTsKdXNlIFN5bWZvbnlcQ29tcG9uZW50XEh0dHBLZXJuZWxcQ2xpZW50OwoKLyoqCiAqIENsYXNzIERydXBhbFVwZ3JhZGVUZXN0CiAqICAgUnVucyBhIGNvbXBsZXRlIERydXBhbCA3LjUzIC0+IDcuNTQgdXBncmFkZSwgYW5kIHZlcmlmaWVzIHRoZSByZXN1bHQKICogICBhZ2FpbnN0IGFub3RoZXIgY29weSBvZiBEcnVwYWwgNy41NCBpbiB0aGUgdGVzdCBjb250YWluZXIuCiAqLwpjbGFzcyBDcGtnVmFsaWRhdGVUZXN0IGV4dGVuZHMgSW50ZWdyYXRpb25XZWJUZXN0Q2FzZSB7CiAgdXNlIFdlYlRlc3RDYXNlQ3BrZ0FwcGxpZXJUcmFpdDsKCiAgcHJvdGVjdGVkIGZ1bmN0aW9uIGdldFRlc3RTaXRlUm9vdCgpIHsKICAgIHJldHVybiBnZXRlbnYoJ1RFU1RfU0lURV9ST09UJyk7CiAgfQoKICBwdWJsaWMgZnVuY3Rpb24gZ2V0VGVzdEludGVncmF0aW9uQ29uZmlnKCkKICB7CiAgICAvLyBGb3JjZSBhdXRvZGV0ZWN0aW9uIG9mIGRydXBhbCA3CiAgICByZXR1cm4gcGFyZW50OjpnZXRUZXN0SW50ZWdyYXRpb25Db25maWcoKS0+c2V0Q3VzdG9tQXBwVGFyZ2V0ZXIobnVsbCk7CiAgfQoKICBwdWJsaWMgZnVuY3Rpb24gdGVzdERydXBhbDdVcGdyYWRlKCkgewogICAgJGNsaWVudCA9IHNlbGY6OmNyZWF0ZUNsaWVudCgpOwogICAgLyoqCiAgICAgKiBAdmFyIFNlc3Npb25JbnRlcmZhY2UgJHNlc3Npb24KICAgICAqLwogICAgJHNlc3Npb24gPSAkdGhpcy0+YXBwWydzZXNzaW9uJ107CiAgICAvLyBUaGlzIHRlc3QgY2xhc3MgaGFzIG5vIHVuYXV0aGVudGljYXRlZCB0ZXN0cy4KICAgIFNlc3Npb246Om1ha2VTZXNzaW9uQXV0aGVudGljYXRlZCgkc2Vzc2lvbik7CgogICAgJGNqID0gJGNsaWVudC0+Z2V0Q29va2llSmFyKCk7CiAgICAkc2Vzc2lvbl9jb29raWUgPSBuZXcgQ29va2llKCR0aGlzLT5hcHBbJ3Nlc3Npb24nXS0+Z2V0TmFtZSgpLCAkdGhpcy0+YXBwWydzZXNzaW9uJ10tPmdldElkKCkpOwogICAgJGNqLT5zZXQoJHNlc3Npb25fY29va2llKTsKICAgICR2MSA9IGdldGVudignREVMVEFfVkVSU0lPTicpOwogICAgJHYyID0gZ2V0ZW52KCdDVVJSRU5UX1ZFUlNJT04nKTsKICAgICR0aGlzLT5ydW5CYXRjaEFwcGxpY2F0aW9uT2ZDcGtnKCJEcnVwYWwke3YxfS0ke3YyfS5jcGtnLnppcCIsICRjbGllbnQpOwoKICAgICR0aGlzLT52ZXJpZnlUcmVlTWF0Y2hlc0N1cnJlbnQoIlBvc3QtdXBkYXRlZCBkZWx0YSB2ZXJzaW9uICR7djF9IGRvZXMgbm90IG1hdGNoIGxhdGVzdCB2ZXJzaW9uIHNvdXJjZSB0cmVlIik7CiAgfQoKICAvLyBGdW5jdGlvbiBuYW1lIG5lZWRlZCBhcy1pcyB0byBvdmVycmlkZQogIHByb3RlY3RlZCBmdW5jdGlvbiB2ZXJpZnlUcmVlTWF0Y2hlc0N1cnJlbnQoJG1lc3NhZ2UpIHsKICAgICRkMSA9IGdldGVudignVEVTVF9TSVRFX1JPT1QnKTsKICAgICRkMiA9ICdjdXJyZW50X3ZlcnNpb24nOwogICAgJGRpZmYgPSBgL3Vzci9iaW4vZGlmZiAtLWJyaWVmIC1yICRkMSAkZDIgMj4mMSB8IGdyZXAgLUZ2ICcuY3VyYXRvci1kYXRhJ2A7CiAgICAkdGhpcy0+YXNzZXJ0RXF1YWxzKAogICAgICAnJywKICAgICAgdHJpbSgkZGlmZiksCiAgICAgICRtZXNzYWdlCiAgICApOwoKICB9Cn0K");' > curator/tests/Integration/Cpkg/CpkgValidateTest.php
+
+before_script:
+    - TEST_SITE_ROOT=$(pwd)/${DELTA_VERSION}
+    - export TEST_SITE_ROOT
+
+script:
+    - /bin/bash ./travis.sh
